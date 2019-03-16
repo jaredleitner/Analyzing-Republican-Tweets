@@ -16,6 +16,13 @@ api = tweepy.API(auth)
 #Modified from https://gist.github.com/yanofsky/5436496
 #Twitter only allows access to a users most recent 3240 tweets with this method
 def get_all_tweets(screen_name):
+    """
+    " Retrieve the most recent tweets of a user, up to their 3240th most recent tweet
+    " For retrieving older tweets, consider using GetOldTweets-Python 
+    " (https://github.com/Jefferson-Henrique/GetOldTweets-python)
+    "
+    " screen_name: screen name of the user whose tweets are to be retrieved
+    """
     assert isinstance(screen_name, str)
     
     #initialize a list to hold all the tweepy Tweets
