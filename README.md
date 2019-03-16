@@ -27,3 +27,4 @@
 * ratio_plot.ipynb
 * sentiment_extraction.ipynb
 * word_clouds.ipynb
+    * install wordcloud as shown here: https://github.com/amueller/word_cloud
