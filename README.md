@@ -14,6 +14,8 @@
 * GetOldTweets-Python (https://github.com/Jefferson-Henrique/GetOldTweets-python)
     * Uses “Advanced Search” feature on Twitter to retrieve tweets
     * Authentication not required, but takes a longer amount of time
+* Politician Tweets (https://data.world/bkey/politician-tweets)
+    * Tweets by US politicians, congress people, senators and governors
 
 ## Repo Contents
 * get_candidate_tweets.ipynb
